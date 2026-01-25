@@ -14,7 +14,7 @@ function App() {
         <img
           src="/chatgpt_image_jan_24,_2026_at_11_53_48_pm.png"
           alt="Rising Waves Swimming Academy"
-          style={{ height: '80px', width: 'auto', marginBottom: '20px' }}
+          style={{ height: '120px', width: 'auto', marginBottom: '20px' }}
         />
         <nav style={{ display: 'flex', gap: '24px', flexWrap: 'wrap', justifyContent: 'center' }}>
           <a href="#home" style={{ textDecoration: 'none', fontSize: '16px', fontWeight: 'bold', color: '#1d3557' }}>Home</a>
