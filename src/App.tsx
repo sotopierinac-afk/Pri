@@ -4,23 +4,24 @@ function App() {
       {/* NAV */}
       <header style={{
         background: '#ffffff',
-        padding: '16px 40px',
+        padding: '30px 40px',
         display: 'flex',
-        justifyContent: 'space-between',
+        flexDirection: 'column',
         alignItems: 'center',
-        borderBottom: '3px solid #e3f2fd'
+        borderBottom: '3px solid #e3f2fd',
+        textAlign: 'center'
       }}>
         <img
           src="/chatgpt_image_jan_24,_2026_at_11_53_48_pm.png"
           alt="Rising Waves Swimming Academy"
-          style={{ height: '60px', width: 'auto' }}
+          style={{ height: '80px', width: 'auto', marginBottom: '20px' }}
         />
-        <nav>
-          <a href="#home" style={{ marginLeft: '24px', textDecoration: 'none', fontSize: '14px', fontWeight: 'bold', color: '#1d3557' }}>Home</a>
-          <a href="#programs" style={{ marginLeft: '24px', textDecoration: 'none', fontSize: '14px', fontWeight: 'bold', color: '#1d3557' }}>Programs</a>
-          <a href="#pricing" style={{ marginLeft: '24px', textDecoration: 'none', fontSize: '14px', fontWeight: 'bold', color: '#1d3557' }}>Pricing</a>
-          <a href="#about" style={{ marginLeft: '24px', textDecoration: 'none', fontSize: '14px', fontWeight: 'bold', color: '#1d3557' }}>About</a>
-          <a href="#contact" style={{ marginLeft: '24px', textDecoration: 'none', fontSize: '14px', fontWeight: 'bold', color: '#1d3557' }}>Contact</a>
+        <nav style={{ display: 'flex', gap: '24px', flexWrap: 'wrap', justifyContent: 'center' }}>
+          <a href="#home" style={{ textDecoration: 'none', fontSize: '16px', fontWeight: 'bold', color: '#1d3557' }}>Home</a>
+          <a href="#programs" style={{ textDecoration: 'none', fontSize: '16px', fontWeight: 'bold', color: '#1d3557' }}>Programs</a>
+          <a href="#pricing" style={{ textDecoration: 'none', fontSize: '16px', fontWeight: 'bold', color: '#1d3557' }}>Pricing</a>
+          <a href="#about" style={{ textDecoration: 'none', fontSize: '16px', fontWeight: 'bold', color: '#1d3557' }}>About</a>
+          <a href="#contact" style={{ textDecoration: 'none', fontSize: '16px', fontWeight: 'bold', color: '#1d3557' }}>Contact</a>
         </nav>
       </header>
 
