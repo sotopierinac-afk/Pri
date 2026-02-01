@@ -20,6 +20,7 @@ function App() {
           <a href="#home" style={{ textDecoration: 'none', fontSize: '16px', fontWeight: 'bold', color: '#1d3557' }}>Home</a>
           <a href="#programs" style={{ textDecoration: 'none', fontSize: '16px', fontWeight: 'bold', color: '#1d3557' }}>Programs</a>
           <a href="#pricing" style={{ textDecoration: 'none', fontSize: '16px', fontWeight: 'bold', color: '#1d3557' }}>Pricing</a>
+          <a href="#booking" style={{ textDecoration: 'none', fontSize: '16px', fontWeight: 'bold', color: '#1d3557' }}>Booking</a>
           <a href="#about" style={{ textDecoration: 'none', fontSize: '16px', fontWeight: 'bold', color: '#1d3557' }}>About</a>
           <a href="#contact" style={{ textDecoration: 'none', fontSize: '16px', fontWeight: 'bold', color: '#1d3557' }}>Contact</a>
         </nav>
@@ -219,6 +220,79 @@ function App() {
         </div>
       </section>
 
+      {/* BOOKING / SCHEDULE */}
+      <section id="booking" style={{ padding: '80px 30px', maxWidth: '900px', margin: 'auto', textAlign: 'center' }}>
+        <h3 style={{ fontSize: '34px', marginBottom: '10px' }}>Available Class Times</h3>
+
+        <p style={{ fontSize: '16px', marginBottom: '30px', color: '#555' }}>
+          Classes are held once per week · 25-minute sessions<br />
+          <strong>Saturdays only</strong>
+        </p>
+
+        <div style={{
+          background: '#f2f9fb',
+          borderRadius: '16px',
+          padding: '25px',
+          marginBottom: '20px'
+        }}>
+          <h4 style={{ marginBottom: '10px', color: '#0077b6', fontSize: '22px' }}>Group & Survival Classes</h4>
+          <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+            <li style={{ fontSize: '17px', padding: '6px 0' }}>8:30 AM</li>
+            <li style={{ fontSize: '17px', padding: '6px 0' }}>9:00 AM</li>
+            <li style={{ fontSize: '17px', padding: '6px 0' }}>9:30 AM</li>
+            <li style={{ fontSize: '17px', padding: '6px 0' }}>10:00 AM</li>
+            <li style={{ fontSize: '17px', padding: '6px 0' }}>10:30 AM</li>
+          </ul>
+        </div>
+
+        <div style={{
+          background: '#f2f9fb',
+          borderRadius: '16px',
+          padding: '25px',
+          marginBottom: '20px'
+        }}>
+          <h4 style={{ marginBottom: '10px', color: '#0077b6', fontSize: '22px' }}>Private Classes</h4>
+          <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+            <li style={{ fontSize: '17px', padding: '6px 0' }}>11:30 AM</li>
+            <li style={{ fontSize: '17px', padding: '6px 0' }}>12:15 PM</li>
+          </ul>
+        </div>
+
+        <p style={{ marginTop: '20px', fontSize: '15px', color: '#444' }}>
+          Only the times listed above are available for booking.
+          No additional time slots are offered.
+        </p>
+
+        <div style={{
+          marginTop: '30px',
+          display: 'flex',
+          justifyContent: 'center',
+          gap: '15px',
+          flexWrap: 'wrap'
+        }}>
+          <a href="https://wa.me/1XXXXXXXXXX" style={{
+            padding: '14px 26px',
+            borderRadius: '30px',
+            textDecoration: 'none',
+            fontWeight: '600',
+            background: '#00b4d8',
+            color: '#fff'
+          }}>
+            Reserve Your Spot
+          </a>
+          <a href="#contact" style={{
+            padding: '14px 26px',
+            borderRadius: '30px',
+            textDecoration: 'none',
+            fontWeight: '600',
+            background: '#e0f4f8',
+            color: '#0077b6'
+          }}>
+            Contact Us
+          </a>
+        </div>
+      </section>
+
       {/* ABOUT */}
       <section id="about" style={{ padding: '80px 30px', maxWidth: '1200px', margin: 'auto' }}>
         <div style={{
@@ -274,6 +348,7 @@ function App() {
         <a href="#home" style={{ color: 'white', margin: '0 10px', textDecoration: 'underline' }}>Home</a> |
         <a href="#programs" style={{ color: 'white', margin: '0 10px', textDecoration: 'underline' }}>Programs</a> |
         <a href="#pricing" style={{ color: 'white', margin: '0 10px', textDecoration: 'underline' }}>Pricing</a> |
+        <a href="#booking" style={{ color: 'white', margin: '0 10px', textDecoration: 'underline' }}>Booking</a> |
         <a href="#about" style={{ color: 'white', margin: '0 10px', textDecoration: 'underline' }}>About</a> |
         <a href="#contact" style={{ color: 'white', margin: '0 10px', textDecoration: 'underline' }}>Contact</a>
       </footer>
