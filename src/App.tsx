@@ -400,6 +400,47 @@ function App() {
         </div>
       </section>
 
+      {/* STEP UP FOR STUDENTS */}
+      <section style={{ maxWidth: '1000px', margin: '80px auto', padding: '0 20px', textAlign: 'center' }}>
+        <h3 style={{ fontSize: '34px', marginBottom: '20px' }}>Step Up for Students</h3>
+        <p style={{ fontSize: '20px', lineHeight: '1.6' }}>
+          <strong>Rising Waves Swimming Academy is a Step Up for Students official provider.</strong>
+        </p>
+      </section>
+
+      {/* CTA */}
+      <section style={{ maxWidth: '1000px', margin: '80px auto', padding: '0 20px', textAlign: 'center' }}>
+        <h3 style={{ fontSize: '34px', marginBottom: '20px' }}>Ready to Get Started?</h3>
+        <p style={{ fontSize: '18px', color: '#555', marginBottom: '30px' }}>
+          Spots are limited. Advance reservation is required.
+        </p>
+        <a
+          href="#contact"
+          style={{
+            display: 'inline-block',
+            marginTop: '25px',
+            padding: '14px 28px',
+            borderRadius: '30px',
+            textDecoration: 'none',
+            fontWeight: '600',
+            background: '#00b4d8',
+            color: '#fff',
+            fontSize: '18px',
+            transition: 'transform 0.2s, background 0.2s'
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.transform = 'scale(1.05)';
+            e.currentTarget.style.background = '#0096c7';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.transform = 'scale(1)';
+            e.currentTarget.style.background = '#00b4d8';
+          }}
+        >
+          Book a Class
+        </a>
+      </section>
+
       {/* CONTACT */}
       <section id="contact" style={{ padding: '80px 30px', maxWidth: '1200px', margin: 'auto', textAlign: 'center' }}>
         <h3 style={{ fontSize: '34px', marginBottom: '30px' }}>Let's Talk 💬</h3>
