@@ -143,55 +143,41 @@ function App() {
 
       {/* PRICING */}
       <section id="pricing" style={{ padding: '80px 30px', maxWidth: '1200px', margin: 'auto' }}>
-        <h3 style={{ textAlign: 'center', fontSize: '34px', marginBottom: '50px' }}>Simple Monthly Pricing 💙</h3>
+        <h2 style={{ textAlign: 'center', fontSize: '34px', marginBottom: '50px' }}>Monthly Pricing</h2>
         <div style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
-          gap: '30px'
+          gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
+          gap: '20px'
         }}>
           <div style={{
-            background: '#ffffff',
+            background: '#f2f9fb',
             padding: '30px',
-            borderRadius: '25px',
-            boxShadow: '0 10px 25px rgba(0,0,0,0.06)',
-            textAlign: 'center'
+            borderRadius: '18px',
+            fontWeight: '600'
           }}>
-            <h4 style={{ color: '#219ebc', fontSize: '22px' }}>Group Classes</h4>
-            <div style={{ fontSize: '26px', fontWeight: 'bold', color: '#fb8500', margin: '15px 0' }}>$150</div>
-            <p>4 classes • 25 minutes</p>
+            <h3 style={{ fontSize: '20px', marginBottom: '10px' }}>Private Classes</h3>
+            <strong style={{ fontSize: '24px' }}>$250 / month</strong>
+            <p style={{ marginTop: '10px', fontWeight: 'normal' }}>2 years and up</p>
           </div>
           <div style={{
-            background: '#ffffff',
+            background: '#f2f9fb',
             padding: '30px',
-            borderRadius: '25px',
-            boxShadow: '0 10px 25px rgba(0,0,0,0.06)',
-            textAlign: 'center'
+            borderRadius: '18px',
+            fontWeight: '600'
           }}>
-            <h4 style={{ color: '#219ebc', fontSize: '22px' }}>Private Lessons</h4>
-            <div style={{ fontSize: '26px', fontWeight: 'bold', color: '#fb8500', margin: '15px 0' }}>$200</div>
-            <p>4 classes • 25 minutes</p>
+            <h3 style={{ fontSize: '20px', marginBottom: '10px' }}>Regular Classes</h3>
+            <strong style={{ fontSize: '24px' }}>$200 / month</strong>
+            <p style={{ marginTop: '10px', fontWeight: 'normal' }}>2 years and up</p>
           </div>
           <div style={{
-            background: '#ffffff',
+            background: '#f2f9fb',
             padding: '30px',
-            borderRadius: '25px',
-            boxShadow: '0 10px 25px rgba(0,0,0,0.06)',
-            textAlign: 'center'
+            borderRadius: '18px',
+            fontWeight: '600'
           }}>
-            <h4 style={{ color: '#219ebc', fontSize: '22px' }}>Mommy & Me</h4>
-            <div style={{ fontSize: '26px', fontWeight: 'bold', color: '#fb8500', margin: '15px 0' }}>$200</div>
-            <p>4 classes • 25 minutes</p>
-          </div>
-          <div style={{
-            background: '#ffffff',
-            padding: '30px',
-            borderRadius: '25px',
-            boxShadow: '0 10px 25px rgba(0,0,0,0.06)',
-            textAlign: 'center'
-          }}>
-            <h4 style={{ color: '#219ebc', fontSize: '22px' }}>Toddler Classes</h4>
-            <div style={{ fontSize: '26px', fontWeight: 'bold', color: '#fb8500', margin: '15px 0' }}>$250</div>
-            <p>4 classes • 25 minutes</p>
+            <h3 style={{ fontSize: '20px', marginBottom: '10px' }}>Survival Skills</h3>
+            <strong style={{ fontSize: '24px' }}>$250 / month</strong>
+            <p style={{ marginTop: '10px', fontWeight: 'normal' }}>6 months – 2 years</p>
           </div>
         </div>
       </section>
@@ -353,32 +339,18 @@ function App() {
       </section>
 
       {/* CERTIFICATIONS */}
-      <section style={{ padding: '80px 30px', maxWidth: '900px', margin: 'auto' }}>
-        <div style={{
-          background: 'linear-gradient(135deg, #219ebc 0%, #023047 100%)',
-          borderRadius: '30px',
-          padding: '50px',
-          textAlign: 'center',
-          color: 'white'
-        }}>
-          <h3 style={{ fontSize: '34px', marginBottom: '30px', color: 'white' }}>Certifications</h3>
-          <ul style={{
-            listStyle: 'none',
-            padding: 0,
-            margin: 0,
-            fontSize: '20px',
-            lineHeight: '2.5'
-          }}>
-            <li>Red Cross Certified <strong>Water Safety Instructor</strong></li>
-            <li><strong>CPR Certified</strong></li>
-          </ul>
-        </div>
+      <section style={{ padding: '80px 30px', maxWidth: '900px', margin: 'auto', textAlign: 'center' }}>
+        <h2 style={{ fontSize: '34px', marginBottom: '30px' }}>Certified & Approved</h2>
+        <p style={{ fontSize: '18px', lineHeight: '1.8' }}>
+          Red Cross Certified Water Safety Instructor · CPR Certified<br />
+          Approved by PIERI & GAD
+        </p>
       </section>
 
       {/* STEP UP FOR STUDENTS */}
       <section style={{ maxWidth: '1000px', margin: '80px auto', padding: '0 20px', textAlign: 'center' }}>
-        <h3 style={{ fontSize: '34px', marginBottom: '20px' }}>Step Up for Students</h3>
-        <p style={{ fontSize: '20px', lineHeight: '1.6' }}>
+        <h2 style={{ fontSize: '34px', marginBottom: '20px' }}>Step Up for Students</h2>
+        <p style={{ fontSize: '18px', lineHeight: '1.6' }}>
           <strong>Rising Waves Swimming Academy is a Step Up for Students official provider.</strong>
         </p>
       </section>
