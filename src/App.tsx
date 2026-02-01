@@ -29,7 +29,7 @@ function App() {
       {/* HOME / HERO VIDEO */}
       <section id="home" style={{
         position: 'relative',
-        height: '80vh',
+        height: '85vh',
         overflow: 'hidden'
       }}>
         <video
@@ -52,59 +52,38 @@ function App() {
         <div style={{
           position: 'absolute',
           inset: '0',
-          background: 'rgba(0,0,0,0.35)',
+          background: 'rgba(0, 90, 110, 0.6)',
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'center',
-          alignItems: 'center',
-          textAlign: 'center',
-          color: 'white',
-          padding: '20px'
+          padding: '60px',
+          color: 'white'
         }}>
-          <h1 style={{
-            fontSize: '48px',
-            marginBottom: '20px',
-            maxWidth: '900px',
-            textShadow: '2px 2px 8px rgba(0,0,0,0.5)'
-          }}>
-            Where Kids Learn to Swim with Confidence & Joy 💦
-          </h1>
-          <p style={{
-            fontSize: '20px',
-            marginBottom: '30px',
-            maxWidth: '700px',
-            textShadow: '1px 1px 4px rgba(0,0,0,0.5)'
-          }}>
-            Fun, safe, and faith-filled swimming lessons for babies, kids, and families.
-          </p>
-          <div>
-            <a href="#pricing" style={{
-              display: 'inline-block',
-              background: '#ffb703',
-              color: '#1d3557',
-              padding: '16px 40px',
-              borderRadius: '40px',
-              fontWeight: 'bold',
-              textDecoration: 'none',
-              margin: '10px',
-              fontSize: '18px',
-              boxShadow: '0 4px 15px rgba(0,0,0,0.3)'
+          <div style={{ maxWidth: '600px' }}>
+            <h1 style={{
+              fontSize: '48px',
+              marginBottom: '20px',
+              lineHeight: '1.2'
             }}>
-              See Our Classes
-            </a>
-            <a href="https://wa.me/1XXXXXXXXXX" style={{
+              Professional Swimming Lessons<br />For All Ages
+            </h1>
+            <p style={{
+              fontSize: '20px',
+              marginBottom: '30px'
+            }}>
+              Starting from 6 months old · Safe · Certified · Trusted
+            </p>
+            <a href="#booking" style={{
               display: 'inline-block',
-              background: '#25d366',
+              background: '#00b4d8',
               color: 'white',
               padding: '16px 40px',
-              borderRadius: '40px',
+              borderRadius: '8px',
               fontWeight: 'bold',
               textDecoration: 'none',
-              margin: '10px',
-              fontSize: '18px',
-              boxShadow: '0 4px 15px rgba(0,0,0,0.3)'
+              fontSize: '18px'
             }}>
-              Chat on WhatsApp
+              Book a Class
             </a>
           </div>
         </div>
@@ -112,55 +91,52 @@ function App() {
 
       {/* PROGRAMS */}
       <section id="programs" style={{ padding: '80px 30px', maxWidth: '1200px', margin: 'auto' }}>
-        <h3 style={{ textAlign: 'center', fontSize: '34px', marginBottom: '50px' }}>Our Swim Programs 🏊‍♀️</h3>
+        <h2 style={{ textAlign: 'center', fontSize: '34px', marginBottom: '50px' }}>Our Swimming Programs</h2>
         <div style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
-          gap: '30px'
+          gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
+          gap: '20px'
         }}>
           <div style={{
-            background: '#ffffff',
+            background: '#f2f9fb',
             padding: '30px',
-            borderRadius: '25px',
-            boxShadow: '0 10px 25px rgba(0,0,0,0.06)',
-            textAlign: 'center'
+            borderRadius: '18px',
+            fontWeight: '600'
           }}>
-            <h4 style={{ color: '#219ebc', fontSize: '22px' }}>Mommy & Me</h4>
-            <p>Bonding, songs, and gentle water play.</p>
-            <strong>Ages 6 months – 2 years</strong>
+            Parent & Child Aquatics<br />
+            <small style={{ fontWeight: 'normal' }}>6 months – 2 years</small>
           </div>
           <div style={{
-            background: '#ffffff',
+            background: '#f2f9fb',
             padding: '30px',
-            borderRadius: '25px',
-            boxShadow: '0 10px 25px rgba(0,0,0,0.06)',
-            textAlign: 'center'
+            borderRadius: '18px',
+            fontWeight: '600'
           }}>
-            <h4 style={{ color: '#219ebc', fontSize: '22px' }}>Toddler Swim</h4>
-            <p>Play-based lessons to build comfort and confidence.</p>
-            <strong>Ages 2 – 4 years</strong>
+            Pre-School Aquatics
           </div>
           <div style={{
-            background: '#ffffff',
+            background: '#f2f9fb',
             padding: '30px',
-            borderRadius: '25px',
-            boxShadow: '0 10px 25px rgba(0,0,0,0.06)',
-            textAlign: 'center'
+            borderRadius: '18px',
+            fontWeight: '600'
           }}>
-            <h4 style={{ color: '#219ebc', fontSize: '22px' }}>Kids Swim Lessons</h4>
-            <p>Structured lessons that help kids grow and succeed.</p>
-            <strong>Ages 4 – 11 years</strong>
+            Learn to Swim
           </div>
           <div style={{
-            background: '#ffffff',
+            background: '#f2f9fb',
             padding: '30px',
-            borderRadius: '25px',
-            boxShadow: '0 10px 25px rgba(0,0,0,0.06)',
-            textAlign: 'center'
+            borderRadius: '18px',
+            fontWeight: '600'
           }}>
-            <h4 style={{ color: '#219ebc', fontSize: '22px' }}>Adult Swim</h4>
-            <p>Supportive lessons for beginners and beyond.</p>
-            <strong>Ages 12+</strong>
+            Adult Swimming
+          </div>
+          <div style={{
+            background: '#f2f9fb',
+            padding: '30px',
+            borderRadius: '18px',
+            fontWeight: '600'
+          }}>
+            Water Safety
           </div>
         </div>
       </section>
