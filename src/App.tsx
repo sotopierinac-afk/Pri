@@ -395,7 +395,6 @@ function App() {
           }}>
             <li>Red Cross Certified <strong>Water Safety Instructor</strong></li>
             <li><strong>CPR Certified</strong></li>
-            <li>Approved by <strong>PIERI & GAD</strong></li>
           </ul>
         </div>
       </section>
