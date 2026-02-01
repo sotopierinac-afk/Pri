@@ -295,19 +295,84 @@ function App() {
 
       {/* ABOUT */}
       <section id="about" style={{ padding: '80px 30px', maxWidth: '1200px', margin: 'auto' }}>
-        <div style={{
-          background: '#fff6e5',
-          borderRadius: '30px',
-          padding: '50px',
-          textAlign: 'center'
+        <h3 style={{ fontSize: '34px', marginBottom: '20px', textAlign: 'center' }}>About Rising Waves Swimming Academy</h3>
+        <p style={{
+          textAlign: 'center',
+          fontSize: '18px',
+          maxWidth: '900px',
+          margin: '0 auto 50px',
+          lineHeight: '1.6'
         }}>
-          <h3 style={{ fontSize: '34px', marginBottom: '20px' }}>About Rising Waves 🤍</h3>
-          <p>
-            Rising Waves Swimming Academy is a joyful place where children learn to swim,
-            build confidence, and feel safe in the water.
-            We teach with patience, kindness, and Christian values — helping every child
-            grow one splash at a time.
-          </p>
+          Rising Waves Swimming Academy teaches swimmers of all levels, starting from
+          little ones as young as <strong>6 months old</strong>. Our programs focus on
+          water safety, confidence, and proper swimming technique in a safe and
+          supportive environment.
+        </p>
+
+        <div style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+          gap: '25px'
+        }}>
+          <div style={{
+            background: '#ffffff',
+            padding: '30px',
+            borderRadius: '20px',
+            boxShadow: '0 8px 20px rgba(0,0,0,0.06)'
+          }}>
+            <h4 style={{ color: '#219ebc', fontSize: '22px', marginBottom: '12px' }}>Parent & Child Aquatics</h4>
+            <p style={{ lineHeight: '1.6', color: '#555' }}>
+              For children 6 months to 2 years. Focuses on bonding, comfort in water, and early survival skills.
+            </p>
+          </div>
+
+          <div style={{
+            background: '#ffffff',
+            padding: '30px',
+            borderRadius: '20px',
+            boxShadow: '0 8px 20px rgba(0,0,0,0.06)'
+          }}>
+            <h4 style={{ color: '#219ebc', fontSize: '22px', marginBottom: '12px' }}>Pre-School Aquatics</h4>
+            <p style={{ lineHeight: '1.6', color: '#555' }}>
+              Introduces young swimmers to independence, confidence, and basic swimming skills.
+            </p>
+          </div>
+
+          <div style={{
+            background: '#ffffff',
+            padding: '30px',
+            borderRadius: '20px',
+            boxShadow: '0 8px 20px rgba(0,0,0,0.06)'
+          }}>
+            <h4 style={{ color: '#219ebc', fontSize: '22px', marginBottom: '12px' }}>Learn to Swim</h4>
+            <p style={{ lineHeight: '1.6', color: '#555' }}>
+              Stroke development, breathing techniques, and water safety fundamentals.
+            </p>
+          </div>
+
+          <div style={{
+            background: '#ffffff',
+            padding: '30px',
+            borderRadius: '20px',
+            boxShadow: '0 8px 20px rgba(0,0,0,0.06)'
+          }}>
+            <h4 style={{ color: '#219ebc', fontSize: '22px', marginBottom: '12px' }}>Adult Swimming</h4>
+            <p style={{ lineHeight: '1.6', color: '#555' }}>
+              Beginner to intermediate lessons focused on confidence and technique.
+            </p>
+          </div>
+
+          <div style={{
+            background: '#ffffff',
+            padding: '30px',
+            borderRadius: '20px',
+            boxShadow: '0 8px 20px rgba(0,0,0,0.06)'
+          }}>
+            <h4 style={{ color: '#219ebc', fontSize: '22px', marginBottom: '12px' }}>Water Safety</h4>
+            <p style={{ lineHeight: '1.6', color: '#555' }}>
+              Essential water safety and survival skills for all ages.
+            </p>
+          </div>
         </div>
       </section>
 
