@@ -376,6 +376,30 @@ function App() {
         </div>
       </section>
 
+      {/* CERTIFICATIONS */}
+      <section style={{ padding: '80px 30px', maxWidth: '900px', margin: 'auto' }}>
+        <div style={{
+          background: 'linear-gradient(135deg, #219ebc 0%, #023047 100%)',
+          borderRadius: '30px',
+          padding: '50px',
+          textAlign: 'center',
+          color: 'white'
+        }}>
+          <h3 style={{ fontSize: '34px', marginBottom: '30px', color: 'white' }}>Certifications</h3>
+          <ul style={{
+            listStyle: 'none',
+            padding: 0,
+            margin: 0,
+            fontSize: '20px',
+            lineHeight: '2.5'
+          }}>
+            <li>Red Cross Certified <strong>Water Safety Instructor</strong></li>
+            <li><strong>CPR Certified</strong></li>
+            <li>Approved by <strong>PIERI & GAD</strong></li>
+          </ul>
+        </div>
+      </section>
+
       {/* CONTACT */}
       <section id="contact" style={{ padding: '80px 30px', maxWidth: '1200px', margin: 'auto', textAlign: 'center' }}>
         <h3 style={{ fontSize: '34px', marginBottom: '30px' }}>Let's Talk 💬</h3>
