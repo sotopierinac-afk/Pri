@@ -293,8 +293,7 @@ function App() {
           lineHeight: '2',
           marginBottom: '30px'
         }}>
-          Red Cross Certified Water Safety Instructor · CPR Certified<br />
-          Approved by PIERI & GAD
+          Red Cross Certified Water Safety Instructor · CPR Certified
         </p>
         <h3 style={{
           fontSize: '24px',
