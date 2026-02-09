@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,9 +12,11 @@
 
 body {
   margin: 0;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   color: #0C0C0C;
   line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -21,17 +25,33 @@ a {
 
 .btn {
   display: inline-block;
-  background: linear-gradient(135deg, #F6A53E, #F57F3B);
-  color: white;
-  padding: 14px 36px;
-  border-radius: 999px;
-  font-size: 15px;
+  background: transparent;
+  color: #0C2D48;
+  padding: 12px 32px;
+  border: 2px solid #0C2D48;
+  border-radius: 8px;
+  font-size: 14px;
   font-weight: 600;
+  letter-spacing: 0.5px;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(246, 165, 62, 0.3);
+  text-transform: uppercase;
 }
 
 .btn:hover {
+  background: #0C2D48;
+  color: #FAF9F6;
+  transform: translateY(-1px);
+}
+
+.btn-primary {
+  background: #E35438;
+  color: #FAF9F6;
+  border: 2px solid #E35438;
+}
+
+.btn-primary:hover {
+  background: #F57F3B;
+  border-color: #F57F3B;
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(246, 165, 62, 0.4);
+  box-shadow: 0 8px 24px rgba(227, 84, 56, 0.3);
 }
