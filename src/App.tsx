@@ -75,7 +75,7 @@ function App() {
       {/* VIDEO SECTION */}
       <section style={{
         padding: '80px 40px',
-        background: '#f8f9fa',
+        background: '#fef9ff',
         textAlign: 'center'
       }}>
         <div style={{
@@ -147,7 +147,7 @@ function App() {
               style={{
                 display: 'inline-block',
                 padding: '14px 36px',
-                background: '#fff',
+                background: '#fffbfe',
                 color: '#6f86d6',
                 textDecoration: 'none',
                 borderRadius: '50px',
@@ -288,7 +288,7 @@ function App() {
       {/* CLASS DETAILS */}
       <section style={{
         padding: '100px 40px',
-        background: '#f8f9fa'
+        background: '#fef9ff'
       }}>
         <div style={{
           maxWidth: '1200px',
@@ -300,7 +300,7 @@ function App() {
             gap: '60px'
           }}>
             <div style={{
-              background: '#fff',
+              background: '#fffbfe',
               padding: '40px',
               borderRadius: '20px',
               boxShadow: '0 5px 20px rgba(0,0,0,0.08)'
@@ -347,7 +347,7 @@ function App() {
             </div>
 
             <div style={{
-              background: '#fff',
+              background: '#fffbfe',
               padding: '40px',
               borderRadius: '20px',
               boxShadow: '0 5px 20px rgba(0,0,0,0.08)'
@@ -394,7 +394,7 @@ function App() {
             </div>
 
             <div style={{
-              background: '#fff',
+              background: '#fffbfe',
               padding: '40px',
               borderRadius: '20px',
               boxShadow: '0 5px 20px rgba(0,0,0,0.08)'
@@ -441,7 +441,7 @@ function App() {
             </div>
 
             <div style={{
-              background: '#fff',
+              background: '#fffbfe',
               padding: '40px',
               borderRadius: '20px',
               boxShadow: '0 5px 20px rgba(0,0,0,0.08)'
@@ -488,7 +488,7 @@ function App() {
             </div>
 
             <div style={{
-              background: '#fff',
+              background: '#fffbfe',
               padding: '40px',
               borderRadius: '20px',
               boxShadow: '0 5px 20px rgba(0,0,0,0.08)'
@@ -618,7 +618,7 @@ function App() {
       <section style={{
         padding: '100px 40px',
         textAlign: 'center',
-        background: '#f8f9fa'
+        background: '#fef9ff'
       }}>
         <h2 style={{
           fontSize: '42px',
@@ -689,7 +689,7 @@ function App() {
       <section style={{
         padding: '80px 40px',
         textAlign: 'center',
-        background: '#fff'
+        background: '#fffbfe'
       }}>
         <div style={{
           maxWidth: '900px',
