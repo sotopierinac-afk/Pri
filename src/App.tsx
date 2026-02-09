@@ -10,274 +10,338 @@ function App() {
       }}>
         <div style={{
           padding: '80px',
-          maxWidth: '600px',
+          maxWidth: '700px',
           color: '#fff'
         }}>
           <h1 style={{
             fontSize: '64px',
             fontWeight: '800',
-            lineHeight: '1.05',
+            lineHeight: '1.1',
             marginBottom: '20px'
           }}>
-            BE A CONFIDENT<br />SWIMMER
+            Rising Waves Swimming Academy
           </h1>
           <p style={{
             fontSize: '20px',
             marginBottom: '30px',
-            lineHeight: '1.5'
+            lineHeight: '1.6'
           }}>
-            Professional swimming lessons for all ages<br />Starting from 6 months old
+            Swimming lessons for all ages<br />Starting from 6 months old
           </p>
           <a href="#schedule" style={{
             display: 'inline-block',
             marginTop: '30px',
             padding: '14px 36px',
-            border: '2px solid #fff',
+            background: '#0077b6',
             color: '#fff',
             textDecoration: 'none',
             fontWeight: '700',
-            fontSize: '16px'
+            fontSize: '16px',
+            borderRadius: '30px'
           }}>
-            BOOK NOW
+            Book a Class
           </a>
-        </div>
-      </section>
-
-      {/* STATS */}
-      <section style={{
-        display: 'flex',
-        justifyContent: 'center',
-        gap: '30px',
-        marginTop: '-90px',
-        zIndex: 5,
-        position: 'relative',
-        flexWrap: 'wrap',
-        padding: '0 20px'
-      }}>
-        <div style={{
-          width: '150px',
-          height: '150px',
-          background: '#e63946',
-          borderRadius: '50%',
-          color: '#fff',
-          fontWeight: '700',
-          textAlign: 'center',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          fontSize: '18px'
-        }}>
-          Certified<br /><small style={{ fontSize: '14px', fontWeight: '400' }}>Instructor</small>
-        </div>
-        <div style={{
-          width: '150px',
-          height: '150px',
-          background: '#e63946',
-          borderRadius: '50%',
-          color: '#fff',
-          fontWeight: '700',
-          textAlign: 'center',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          fontSize: '18px'
-        }}>
-          Water<br /><small style={{ fontSize: '14px', fontWeight: '400' }}>Safety</small>
-        </div>
-        <div style={{
-          width: '150px',
-          height: '150px',
-          background: '#e63946',
-          borderRadius: '50%',
-          color: '#fff',
-          fontWeight: '700',
-          textAlign: 'center',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          fontSize: '18px'
-        }}>
-          All<br /><small style={{ fontSize: '14px', fontWeight: '400' }}>Ages</small>
         </div>
       </section>
 
       {/* PROGRAMS */}
       <section style={{
-        padding: '120px 60px',
-        textAlign: 'center'
+        padding: '100px 40px',
+        textAlign: 'center',
+        maxWidth: '1000px',
+        margin: '0 auto'
       }}>
         <h2 style={{
           fontSize: '42px',
           marginBottom: '50px',
           fontWeight: '800'
         }}>
-          IMPROVE YOUR SWIM TECHNIQUE
+          Our Programs
         </h2>
         <div style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
-          gap: '20px',
-          maxWidth: '1200px',
-          margin: '0 auto'
+          gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
+          gap: '20px'
         }}>
           <div style={{
-            height: '220px',
-            background: 'linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.7)), url(https://images.pexels.com/photos/618612/pexels-photo-618612.jpeg?auto=compress&cs=tinysrgb&w=800) center/cover no-repeat',
-            color: '#fff',
-            fontSize: '22px',
-            fontWeight: '700',
-            display: 'flex',
-            alignItems: 'flex-end',
-            padding: '20px',
-            lineHeight: '1.2'
+            background: '#ffffff',
+            padding: '30px',
+            borderRadius: '12px',
+            boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
+            fontSize: '18px',
+            fontWeight: '600'
           }}>
-            PARENT & CHILD<br /><small style={{ fontSize: '16px', fontWeight: '400' }}>6 months – 2 yrs</small>
+            Parent & Child Aquatics<br /><small style={{ fontSize: '14px', fontWeight: '400', color: '#666' }}>6 months – 2 years</small>
           </div>
           <div style={{
-            height: '220px',
-            background: 'linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.7)), url(https://images.pexels.com/photos/1449667/pexels-photo-1449667.jpeg?auto=compress&cs=tinysrgb&w=800) center/cover no-repeat',
-            color: '#fff',
-            fontSize: '22px',
-            fontWeight: '700',
-            display: 'flex',
-            alignItems: 'flex-end',
-            padding: '20px'
+            background: '#ffffff',
+            padding: '30px',
+            borderRadius: '12px',
+            boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
+            fontSize: '18px',
+            fontWeight: '600'
           }}>
-            PRE-SCHOOL
+            Pre-School Aquatics
           </div>
           <div style={{
-            height: '220px',
-            background: 'linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.7)), url(https://images.pexels.com/photos/1679315/pexels-photo-1679315.jpeg?auto=compress&cs=tinysrgb&w=800) center/cover no-repeat',
-            color: '#fff',
-            fontSize: '22px',
-            fontWeight: '700',
-            display: 'flex',
-            alignItems: 'flex-end',
-            padding: '20px'
+            background: '#ffffff',
+            padding: '30px',
+            borderRadius: '12px',
+            boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
+            fontSize: '18px',
+            fontWeight: '600'
           }}>
-            LEARN TO SWIM
+            Learn to Swim
           </div>
           <div style={{
-            height: '220px',
-            background: 'linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.7)), url(https://images.pexels.com/photos/1263349/pexels-photo-1263349.jpeg?auto=compress&cs=tinysrgb&w=800) center/cover no-repeat',
-            color: '#fff',
-            fontSize: '22px',
-            fontWeight: '700',
-            display: 'flex',
-            alignItems: 'flex-end',
-            padding: '20px'
+            background: '#ffffff',
+            padding: '30px',
+            borderRadius: '12px',
+            boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
+            fontSize: '18px',
+            fontWeight: '600'
           }}>
-            ADULT SWIMMING
+            Adult Swimming
           </div>
           <div style={{
-            height: '220px',
-            background: 'linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.7)), url(https://images.pexels.com/photos/2803158/pexels-photo-2803158.jpeg?auto=compress&cs=tinysrgb&w=800) center/cover no-repeat',
-            color: '#fff',
-            fontSize: '22px',
-            fontWeight: '700',
-            display: 'flex',
-            alignItems: 'flex-end',
-            padding: '20px'
+            background: '#ffffff',
+            padding: '30px',
+            borderRadius: '12px',
+            boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
+            fontSize: '18px',
+            fontWeight: '600'
           }}>
-            WATER SAFETY
+            Water Safety
           </div>
         </div>
       </section>
 
-      {/* QUOTE */}
+      {/* CLASS STRUCTURE */}
       <section style={{
-        height: '80vh',
-        background: 'linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.7)), url(https://images.pexels.com/photos/1432675/pexels-photo-1432675.jpeg?auto=compress&cs=tinysrgb&w=1920) center/cover no-repeat',
-        display: 'flex',
-        alignItems: 'flex-end',
-        padding: '60px',
-        color: '#fff'
+        background: '#f4fbfd',
+        padding: '80px 40px',
+        textAlign: 'center'
       }}>
         <h2 style={{
-          fontSize: '52px',
+          fontSize: '42px',
+          marginBottom: '30px',
           fontWeight: '800'
         }}>
-          HOME IS WHERE<br />THE POOL IS
+          Class Structure
         </h2>
+        <p style={{ fontSize: '18px', marginBottom: '10px' }}>
+          Classes are held once per week
+        </p>
+        <p style={{ fontSize: '24px', fontWeight: '700', marginTop: '20px' }}>
+          25-minute sessions
+        </p>
       </section>
 
       {/* PRICING */}
       <section style={{
         padding: '100px 40px',
-        textAlign: 'center'
+        textAlign: 'center',
+        maxWidth: '1000px',
+        margin: '0 auto'
       }}>
         <h2 style={{
           fontSize: '42px',
           marginBottom: '50px',
           fontWeight: '800'
         }}>
-          MONTHLY PRICING
+          Monthly Pricing
         </h2>
         <div style={{
-          display: 'flex',
-          justifyContent: 'center',
-          gap: '30px',
-          flexWrap: 'wrap'
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
+          gap: '30px'
         }}>
           <div style={{
-            background: '#f2f9fb',
-            padding: '40px',
-            fontSize: '32px',
-            fontWeight: '800',
-            borderRadius: '16px'
+            background: '#ffffff',
+            padding: '40px 30px',
+            borderRadius: '12px',
+            boxShadow: '0 4px 12px rgba(0,0,0,0.08)'
           }}>
-            $250<br /><small style={{ fontSize: '16px', fontWeight: '400' }}>Private · 2+ yrs</small>
+            <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '20px' }}>
+              Regular Classes
+            </h3>
+            <p style={{ fontSize: '32px', fontWeight: '700', color: '#0077b6', marginBottom: '10px' }}>
+              $200 / month
+            </p>
+            <p style={{ fontSize: '14px', color: '#666', marginBottom: '25px' }}>
+              2 years and up
+            </p>
+            <a
+              href="https://buy.stripe.com/9B6eVe0o70TW0Ni1GhaMU06"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: 'inline-block',
+                padding: '14px 30px',
+                background: '#0077b6',
+                color: '#fff',
+                textDecoration: 'none',
+                borderRadius: '30px',
+                fontWeight: '600',
+                fontSize: '16px'
+              }}
+            >
+              Enroll Now
+            </a>
           </div>
+
           <div style={{
-            background: '#f2f9fb',
-            padding: '40px',
-            fontSize: '32px',
-            fontWeight: '800',
-            borderRadius: '16px'
+            background: '#ffffff',
+            padding: '40px 30px',
+            borderRadius: '12px',
+            boxShadow: '0 4px 12px rgba(0,0,0,0.08)'
           }}>
-            $200<br /><small style={{ fontSize: '16px', fontWeight: '400' }}>Group · 2+ yrs</small>
+            <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '20px' }}>
+              Private Classes
+            </h3>
+            <p style={{ fontSize: '32px', fontWeight: '700', color: '#0077b6', marginBottom: '10px' }}>
+              $250 / month
+            </p>
+            <p style={{ fontSize: '14px', color: '#666', marginBottom: '25px' }}>
+              2 years and up
+            </p>
+            <a
+              href="https://buy.stripe.com/5kQaEYgn5cCE53y1GhaMU07"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: 'inline-block',
+                padding: '14px 30px',
+                background: '#0077b6',
+                color: '#fff',
+                textDecoration: 'none',
+                borderRadius: '30px',
+                fontWeight: '600',
+                fontSize: '16px'
+              }}
+            >
+              Enroll Now
+            </a>
           </div>
+
           <div style={{
-            background: '#f2f9fb',
-            padding: '40px',
-            fontSize: '32px',
-            fontWeight: '800',
-            borderRadius: '16px'
+            background: '#ffffff',
+            padding: '40px 30px',
+            borderRadius: '12px',
+            boxShadow: '0 4px 12px rgba(0,0,0,0.08)'
           }}>
-            $250<br /><small style={{ fontSize: '16px', fontWeight: '400' }}>Survival · 6m–2 yrs</small>
+            <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '20px' }}>
+              Survival Skills
+            </h3>
+            <p style={{ fontSize: '32px', fontWeight: '700', color: '#0077b6', marginBottom: '10px' }}>
+              $250 / month
+            </p>
+            <p style={{ fontSize: '14px', color: '#666', marginBottom: '25px' }}>
+              6 months – 2 years
+            </p>
+            <a
+              href="https://buy.stripe.com/9B69AUdaT7ik2Vq1GhaMU03"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: 'inline-block',
+                padding: '14px 30px',
+                background: '#0077b6',
+                color: '#fff',
+                textDecoration: 'none',
+                borderRadius: '30px',
+                fontWeight: '600',
+                fontSize: '16px'
+              }}
+            >
+              Enroll Now
+            </a>
           </div>
         </div>
       </section>
 
       {/* SCHEDULE */}
       <section id="schedule" style={{
+        background: '#f4fbfd',
         padding: '80px 40px',
+        textAlign: 'center'
+      }}>
+        <h2 style={{
+          fontSize: '42px',
+          marginBottom: '40px',
+          fontWeight: '800'
+        }}>
+          Available Class Times
+        </h2>
+        <p style={{
+          fontSize: '22px',
+          fontWeight: '700',
+          marginBottom: '20px'
+        }}>
+          Saturdays Only
+        </p>
+        <p style={{
+          fontSize: '20px',
+          lineHeight: '1.8',
+          marginBottom: '30px'
+        }}>
+          8:30 AM · 9:00 AM · 9:30 AM · 10:00 AM · 10:30 AM
+        </p>
+        <p style={{
+          fontSize: '18px',
+          fontWeight: '700',
+          marginBottom: '10px'
+        }}>
+          Private Classes
+        </p>
+        <p style={{
+          fontSize: '20px',
+          lineHeight: '1.8',
+          marginBottom: '30px'
+        }}>
+          11:30 AM · 12:15 PM
+        </p>
+        <p style={{
+          fontSize: '14px',
+          color: '#555',
+          marginTop: '30px'
+        }}>
+          Only these times are available.
+        </p>
+      </section>
+
+      {/* CALENDAR */}
+      <section style={{
+        padding: '100px 40px',
         textAlign: 'center',
-        maxWidth: '900px',
+        maxWidth: '1000px',
         margin: '0 auto'
       }}>
         <h2 style={{
-          fontSize: '32px',
-          marginBottom: '30px',
+          fontSize: '42px',
+          marginBottom: '40px',
           fontWeight: '800'
         }}>
-          AVAILABLE TIMES · SATURDAYS ONLY
+          Class Availability
         </h2>
-        <p style={{
-          fontSize: '20px',
-          lineHeight: '2',
-          marginBottom: '20px'
+        <div style={{
+          width: '100%',
+          maxWidth: '900px',
+          margin: '0 auto',
+          borderRadius: '12px',
+          overflow: 'hidden',
+          boxShadow: '0 4px 12px rgba(0,0,0,0.08)'
         }}>
-          8:30 · 9:00 · 9:30 · 10:00 · 10:30<br />
-          <strong>Private:</strong> 11:30 · 12:15
-        </p>
-        <p style={{
-          fontSize: '16px',
-          color: '#666',
-          marginTop: '30px'
-        }}>
-          Only these times are available for booking.
-        </p>
+          <iframe
+            src="https://calendar.google.com/calendar/embed?src=YOUR_CALENDAR_ID&ctz=America/New_York"
+            style={{ border: 0 }}
+            width="100%"
+            height="600"
+            frameBorder="0"
+            scrolling="no"
+            title="Class Availability Calendar"
+          />
+        </div>
       </section>
 
       {/* TRUST / CERTIFICATIONS */}
