@@ -55,19 +55,11 @@ function App() {
           }}>
             We teach swimmers of all levels, starting from little ones as young as 6 months. Whether your child is just getting used to the water or working on perfecting their strokes, we're here to guide them every step of the way.
           </p>
-          <a href="#pricing" style={{
-            display: 'inline-block',
-            padding: '18px 48px',
-            background: '#F6A53E',
-            color: '#fff',
-            textDecoration: 'none',
-            fontWeight: '700',
+          <a href="#pricing" className="btn" style={{
             fontSize: '18px',
-            borderRadius: '50px',
-            boxShadow: '0 8px 20px rgba(0,0,0,0.2)',
-            transition: 'transform 0.3s ease'
+            padding: '18px 48px'
           }}>
-            Dive In With Us!
+            Dive In With Us! →
           </a>
         </div>
       </section>
@@ -145,19 +137,9 @@ function App() {
               href="https://buy.stripe.com/9B6eVe0o70TW0Ni1GhaMU06"
               target="_blank"
               rel="noopener noreferrer"
-              style={{
-                display: 'inline-block',
-                padding: '14px 36px',
-                background: '#F6A53E',
-                color: '#fff',
-                textDecoration: 'none',
-                borderRadius: '50px',
-                fontWeight: '700',
-                fontSize: '16px',
-                boxShadow: '0 4px 15px rgba(0,0,0,0.2)'
-              }}
+              className="btn"
             >
-              Enroll Now
+              Enroll Now →
             </a>
           </div>
 
@@ -187,19 +169,9 @@ function App() {
               href="https://buy.stripe.com/5kQaEYgn5cCE53y1GhaMU07"
               target="_blank"
               rel="noopener noreferrer"
-              style={{
-                display: 'inline-block',
-                padding: '14px 36px',
-                background: '#F6A53E',
-                color: '#fff',
-                textDecoration: 'none',
-                borderRadius: '50px',
-                fontWeight: '700',
-                fontSize: '16px',
-                boxShadow: '0 4px 15px rgba(0,0,0,0.2)'
-              }}
+              className="btn"
             >
-              Enroll Now
+              Enroll Now →
             </a>
           </div>
 
@@ -229,19 +201,9 @@ function App() {
               href="https://buy.stripe.com/9B6eVe0o70TW0Ni1GhaMU06"
               target="_blank"
               rel="noopener noreferrer"
-              style={{
-                display: 'inline-block',
-                padding: '14px 36px',
-                background: '#F6A53E',
-                color: '#fff',
-                textDecoration: 'none',
-                borderRadius: '50px',
-                fontWeight: '700',
-                fontSize: '16px',
-                boxShadow: '0 4px 15px rgba(0,0,0,0.2)'
-              }}
+              className="btn"
             >
-              Enroll Now
+              Enroll Now →
             </a>
           </div>
 
@@ -271,19 +233,9 @@ function App() {
               href="https://buy.stripe.com/9B69AUdaT7ik2Vq1GhaMU03"
               target="_blank"
               rel="noopener noreferrer"
-              style={{
-                display: 'inline-block',
-                padding: '14px 36px',
-                background: '#F6A53E',
-                color: '#fff',
-                textDecoration: 'none',
-                borderRadius: '50px',
-                fontWeight: '700',
-                fontSize: '16px',
-                boxShadow: '0 4px 15px rgba(0,0,0,0.2)'
-              }}
+              className="btn"
             >
-              Enroll Now
+              Enroll Now →
             </a>
           </div>
         </div>

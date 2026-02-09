@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+a {
+  text-decoration: none;
+}
+
+a.btn {
+  background: linear-gradient(135deg, #F6A53E, #F57F3B);
+  color: #0C2D48;
+  padding: 14px 36px;
+  border-radius: 999px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: none;
+}
+
+a.btn:hover {
+  opacity: 0.9;
+}
+
+a.btn-outline {
+  background: transparent;
+  color: #F6A53E;
+  border: 2px solid #F6A53E;
+  padding: 14px 36px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+a.btn-outline:hover {
+  background: rgba(246, 165, 62, 0.1);
+}
