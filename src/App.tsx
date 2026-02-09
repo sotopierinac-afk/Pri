@@ -1,10 +1,10 @@
 function App() {
   return (
-    <div style={{ margin: 0, fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif", color: '#2c3e50' }}>
+    <div style={{ margin: 0, fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif", color: '#0C0C0C' }}>
       {/* HERO */}
       <section style={{
         minHeight: '100vh',
-        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+        background: '#0C2D48',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
@@ -58,8 +58,8 @@ function App() {
           <a href="#pricing" style={{
             display: 'inline-block',
             padding: '18px 48px',
-            background: '#fff',
-            color: '#667eea',
+            background: '#F6A53E',
+            color: '#fff',
             textDecoration: 'none',
             fontWeight: '700',
             fontSize: '18px',
@@ -75,7 +75,7 @@ function App() {
       {/* VIDEO SECTION */}
       <section style={{
         padding: '80px 40px',
-        background: '#fef9ff',
+        background: '#FAF9F6',
         textAlign: 'center'
       }}>
         <div style={{
@@ -102,7 +102,7 @@ function App() {
       <section id="pricing" style={{
         padding: '100px 40px',
         textAlign: 'center',
-        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'
+        background: '#0C2D48'
       }}>
         <h2 style={{
           fontSize: '48px',
@@ -120,24 +120,25 @@ function App() {
           margin: '0 auto'
         }}>
           <div style={{
-            background: 'linear-gradient(135deg, #48c6ef 0%, #6f86d6 100%)',
+            background: '#ffffff',
             padding: '40px 30px',
             borderRadius: '25px',
-            boxShadow: '0 10px 30px rgba(0,0,0,0.2)',
-            color: '#fff',
+            boxShadow: '0 10px 30px rgba(0,0,0,0.15)',
+            color: '#0C0C0C',
             transform: 'translateY(0)',
-            transition: 'transform 0.3s ease'
+            transition: 'transform 0.3s ease',
+            border: '1px solid rgba(12, 45, 72, 0.08)'
           }}>
-            <h3 style={{ fontSize: '26px', fontWeight: '700', marginBottom: '20px' }}>
+            <h3 style={{ fontSize: '26px', fontWeight: '700', marginBottom: '20px', color: '#0C2D48' }}>
               Group Classes
             </h3>
-            <p style={{ fontSize: '48px', fontWeight: '900', marginBottom: '10px' }}>
+            <p style={{ fontSize: '48px', fontWeight: '900', marginBottom: '10px', color: '#E35438' }}>
               $200
             </p>
-            <p style={{ fontSize: '16px', marginBottom: '20px', opacity: 0.9 }}>
+            <p style={{ fontSize: '16px', marginBottom: '20px', opacity: 0.8 }}>
               Monthly rate, classes of 25 minutes each
             </p>
-            <p style={{ fontSize: '14px', marginBottom: '25px', opacity: 0.85 }}>
+            <p style={{ fontSize: '14px', marginBottom: '25px', opacity: 0.7 }}>
               Applicable for kids and adult swimming lessons
             </p>
             <a
@@ -147,8 +148,8 @@ function App() {
               style={{
                 display: 'inline-block',
                 padding: '14px 36px',
-                background: '#fffbfe',
-                color: '#6f86d6',
+                background: '#F6A53E',
+                color: '#fff',
                 textDecoration: 'none',
                 borderRadius: '50px',
                 fontWeight: '700',
@@ -161,24 +162,25 @@ function App() {
           </div>
 
           <div style={{
-            background: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)',
+            background: '#ffffff',
             padding: '40px 30px',
             borderRadius: '25px',
-            boxShadow: '0 10px 30px rgba(0,0,0,0.2)',
-            color: '#2c3e50',
+            boxShadow: '0 10px 30px rgba(0,0,0,0.15)',
+            color: '#0C0C0C',
             transform: 'translateY(0)',
-            transition: 'transform 0.3s ease'
+            transition: 'transform 0.3s ease',
+            border: '1px solid rgba(12, 45, 72, 0.08)'
           }}>
-            <h3 style={{ fontSize: '26px', fontWeight: '700', marginBottom: '20px' }}>
+            <h3 style={{ fontSize: '26px', fontWeight: '700', marginBottom: '20px', color: '#0C2D48' }}>
               Individual Classes
             </h3>
-            <p style={{ fontSize: '48px', fontWeight: '900', marginBottom: '10px' }}>
+            <p style={{ fontSize: '48px', fontWeight: '900', marginBottom: '10px', color: '#E35438' }}>
               $250
             </p>
-            <p style={{ fontSize: '16px', marginBottom: '20px', opacity: 0.9 }}>
+            <p style={{ fontSize: '16px', marginBottom: '20px', opacity: 0.8 }}>
               Individual private class
             </p>
-            <p style={{ fontSize: '14px', marginBottom: '25px', opacity: 0.85 }}>
+            <p style={{ fontSize: '14px', marginBottom: '25px', opacity: 0.7 }}>
               Monthly rate, each class of 25 minutes
             </p>
             <a
@@ -188,7 +190,7 @@ function App() {
               style={{
                 display: 'inline-block',
                 padding: '14px 36px',
-                background: '#2c3e50',
+                background: '#F6A53E',
                 color: '#fff',
                 textDecoration: 'none',
                 borderRadius: '50px',
@@ -202,24 +204,25 @@ function App() {
           </div>
 
           <div style={{
-            background: 'linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)',
+            background: '#ffffff',
             padding: '40px 30px',
             borderRadius: '25px',
-            boxShadow: '0 10px 30px rgba(0,0,0,0.2)',
-            color: '#2c3e50',
+            boxShadow: '0 10px 30px rgba(0,0,0,0.15)',
+            color: '#0C0C0C',
             transform: 'translateY(0)',
-            transition: 'transform 0.3s ease'
+            transition: 'transform 0.3s ease',
+            border: '1px solid rgba(12, 45, 72, 0.08)'
           }}>
-            <h3 style={{ fontSize: '26px', fontWeight: '700', marginBottom: '20px' }}>
+            <h3 style={{ fontSize: '26px', fontWeight: '700', marginBottom: '20px', color: '#0C2D48' }}>
               Mommy & Me
             </h3>
-            <p style={{ fontSize: '48px', fontWeight: '900', marginBottom: '10px' }}>
+            <p style={{ fontSize: '48px', fontWeight: '900', marginBottom: '10px', color: '#E35438' }}>
               $200
             </p>
-            <p style={{ fontSize: '16px', marginBottom: '20px', opacity: 0.9 }}>
+            <p style={{ fontSize: '16px', marginBottom: '20px', opacity: 0.8 }}>
               Monthly rate, classes of 25 minutes each
             </p>
-            <p style={{ fontSize: '14px', marginBottom: '25px', opacity: 0.85 }}>
+            <p style={{ fontSize: '14px', marginBottom: '25px', opacity: 0.7 }}>
               Ages 6 months to 2 years
             </p>
             <a
@@ -229,7 +232,7 @@ function App() {
               style={{
                 display: 'inline-block',
                 padding: '14px 36px',
-                background: '#2c3e50',
+                background: '#F6A53E',
                 color: '#fff',
                 textDecoration: 'none',
                 borderRadius: '50px',
@@ -243,24 +246,25 @@ function App() {
           </div>
 
           <div style={{
-            background: 'linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)',
+            background: '#ffffff',
             padding: '40px 30px',
             borderRadius: '25px',
-            boxShadow: '0 10px 30px rgba(0,0,0,0.2)',
-            color: '#2c3e50',
+            boxShadow: '0 10px 30px rgba(0,0,0,0.15)',
+            color: '#0C0C0C',
             transform: 'translateY(0)',
-            transition: 'transform 0.3s ease'
+            transition: 'transform 0.3s ease',
+            border: '1px solid rgba(12, 45, 72, 0.08)'
           }}>
-            <h3 style={{ fontSize: '26px', fontWeight: '700', marginBottom: '20px' }}>
+            <h3 style={{ fontSize: '26px', fontWeight: '700', marginBottom: '20px', color: '#0C2D48' }}>
               Toddler Classes
             </h3>
-            <p style={{ fontSize: '48px', fontWeight: '900', marginBottom: '10px' }}>
+            <p style={{ fontSize: '48px', fontWeight: '900', marginBottom: '10px', color: '#E35438' }}>
               $250
             </p>
-            <p style={{ fontSize: '16px', marginBottom: '20px', opacity: 0.9 }}>
+            <p style={{ fontSize: '16px', marginBottom: '20px', opacity: 0.8 }}>
               Monthly rate, classes of 25 minutes each
             </p>
-            <p style={{ fontSize: '14px', marginBottom: '25px', opacity: 0.85 }}>
+            <p style={{ fontSize: '14px', marginBottom: '25px', opacity: 0.7 }}>
               Ages 6 months to 2 years
             </p>
             <a
@@ -270,7 +274,7 @@ function App() {
               style={{
                 display: 'inline-block',
                 padding: '14px 36px',
-                background: '#2c3e50',
+                background: '#F6A53E',
                 color: '#fff',
                 textDecoration: 'none',
                 borderRadius: '50px',
@@ -288,7 +292,7 @@ function App() {
       {/* CLASS DETAILS */}
       <section style={{
         padding: '100px 40px',
-        background: '#fef9ff'
+        background: '#FAF9F6'
       }}>
         <div style={{
           maxWidth: '1200px',
@@ -300,10 +304,11 @@ function App() {
             gap: '60px'
           }}>
             <div style={{
-              background: '#fffbfe',
+              background: '#ffffff',
               padding: '40px',
               borderRadius: '20px',
-              boxShadow: '0 5px 20px rgba(0,0,0,0.08)'
+              boxShadow: '0 5px 20px rgba(0,0,0,0.08)',
+              border: '1px solid rgba(12, 45, 72, 0.08)'
             }}>
               <img
                 src="https://images.pexels.com/photos/618612/pexels-photo-618612.jpeg?auto=compress&cs=tinysrgb&w=800"
@@ -320,7 +325,7 @@ function App() {
                 fontSize: '28px',
                 fontWeight: '700',
                 marginBottom: '20px',
-                color: '#667eea'
+                color: '#0C2D48'
               }}>
                 KIDS INDIVIDUAL CLASSES
               </h3>
@@ -347,10 +352,11 @@ function App() {
             </div>
 
             <div style={{
-              background: '#fffbfe',
+              background: '#ffffff',
               padding: '40px',
               borderRadius: '20px',
-              boxShadow: '0 5px 20px rgba(0,0,0,0.08)'
+              boxShadow: '0 5px 20px rgba(0,0,0,0.08)',
+              border: '1px solid rgba(12, 45, 72, 0.08)'
             }}>
               <img
                 src="https://images.pexels.com/photos/1449667/pexels-photo-1449667.jpeg?auto=compress&cs=tinysrgb&w=800"
@@ -367,7 +373,7 @@ function App() {
                 fontSize: '28px',
                 fontWeight: '700',
                 marginBottom: '20px',
-                color: '#48c6ef'
+                color: '#96D3CC'
               }}>
                 KIDS GROUP CLASSES
               </h3>
@@ -394,10 +400,11 @@ function App() {
             </div>
 
             <div style={{
-              background: '#fffbfe',
+              background: '#ffffff',
               padding: '40px',
               borderRadius: '20px',
-              boxShadow: '0 5px 20px rgba(0,0,0,0.08)'
+              boxShadow: '0 5px 20px rgba(0,0,0,0.08)',
+              border: '1px solid rgba(12, 45, 72, 0.08)'
             }}>
               <img
                 src="https://images.pexels.com/photos/1679315/pexels-photo-1679315.jpeg?auto=compress&cs=tinysrgb&w=800"
@@ -414,7 +421,7 @@ function App() {
                 fontSize: '28px',
                 fontWeight: '700',
                 marginBottom: '20px',
-                color: '#fcb69f'
+                color: '#F57F3B'
               }}>
                 TODDLERS SWIMMING CLASSES
               </h3>
@@ -441,10 +448,11 @@ function App() {
             </div>
 
             <div style={{
-              background: '#fffbfe',
+              background: '#ffffff',
               padding: '40px',
               borderRadius: '20px',
-              boxShadow: '0 5px 20px rgba(0,0,0,0.08)'
+              boxShadow: '0 5px 20px rgba(0,0,0,0.08)',
+              border: '1px solid rgba(12, 45, 72, 0.08)'
             }}>
               <img
                 src="https://images.pexels.com/photos/1263349/pexels-photo-1263349.jpeg?auto=compress&cs=tinysrgb&w=800"
@@ -461,7 +469,7 @@ function App() {
                 fontSize: '28px',
                 fontWeight: '700',
                 marginBottom: '20px',
-                color: '#a8edea'
+                color: '#0C2D48'
               }}>
                 ADULT SWIMMING CLASSES
               </h3>
@@ -488,10 +496,11 @@ function App() {
             </div>
 
             <div style={{
-              background: '#fffbfe',
+              background: '#ffffff',
               padding: '40px',
               borderRadius: '20px',
-              boxShadow: '0 5px 20px rgba(0,0,0,0.08)'
+              boxShadow: '0 5px 20px rgba(0,0,0,0.08)',
+              border: '1px solid rgba(12, 45, 72, 0.08)'
             }}>
               <img
                 src="https://images.pexels.com/photos/2803158/pexels-photo-2803158.jpeg?auto=compress&cs=tinysrgb&w=800"
@@ -508,7 +517,7 @@ function App() {
                 fontSize: '28px',
                 fontWeight: '700',
                 marginBottom: '20px',
-                color: '#ff9a9e'
+                color: '#F6A53E'
               }}>
                 MOMMY & ME CLASSES
               </h3>
@@ -539,7 +548,7 @@ function App() {
 
       {/* SCHEDULE */}
       <section id="schedule" style={{
-        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+        background: '#0C2D48',
         padding: '100px 40px',
         textAlign: 'center'
       }}>
@@ -618,13 +627,13 @@ function App() {
       <section style={{
         padding: '100px 40px',
         textAlign: 'center',
-        background: '#fef9ff'
+        background: '#FAF9F6'
       }}>
         <h2 style={{
           fontSize: '42px',
           marginBottom: '40px',
           fontWeight: '800',
-          color: '#2c3e50'
+          color: '#0C2D48'
         }}>
           Check Our Calendar
         </h2>
@@ -652,7 +661,7 @@ function App() {
       <section style={{
         padding: '100px 40px',
         textAlign: 'center',
-        background: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)'
+        background: '#96D3CC'
       }}>
         <div style={{
           maxWidth: '800px',
@@ -662,14 +671,14 @@ function App() {
             fontSize: '42px',
             fontWeight: '900',
             marginBottom: '30px',
-            color: '#2c3e50'
+            color: '#0C2D48'
           }}>
             Thank You!
           </h2>
           <p style={{
             fontSize: '20px',
             lineHeight: '1.8',
-            color: '#2c3e50',
+            color: '#0C0C0C',
             marginBottom: '20px'
           }}>
             At Rising Waves Swimming Academy, we believe swimming is a lifelong gift — one that builds strength, joy, and confidence.
@@ -677,7 +686,7 @@ function App() {
           <p style={{
             fontSize: '24px',
             fontWeight: '700',
-            color: '#667eea',
+            color: '#0C2D48',
             marginTop: '30px'
           }}>
             Dive in with us!
@@ -689,7 +698,7 @@ function App() {
       <section style={{
         padding: '80px 40px',
         textAlign: 'center',
-        background: '#fffbfe'
+        background: '#ffffff'
       }}>
         <div style={{
           maxWidth: '900px',
@@ -706,7 +715,7 @@ function App() {
           <h3 style={{
             fontSize: '24px',
             fontWeight: '800',
-            color: '#667eea'
+            color: '#0C2D48'
           }}>
             Rising Waves Swimming Academy is a Step Up for Students official provider
           </h3>
@@ -715,7 +724,7 @@ function App() {
 
       {/* FOOTER */}
       <footer style={{
-        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+        background: '#0C2D48',
         color: 'white',
         textAlign: 'center',
         padding: '60px 40px'
