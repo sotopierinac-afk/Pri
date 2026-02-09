@@ -740,7 +740,7 @@ function App() {
           Building confidence, one splash at a time
         </p>
         <div style={{ marginBottom: '30px' }}>
-          <a href="https://www.instagram.com/risingwavesswimmingacademy/" target="_blank" rel="noopener noreferrer" style={{
+          <a href="https://www.instagram.com/risingwavesswimming?igsh=cW1na2dvemU1ZGc=" target="_blank" rel="noopener noreferrer" style={{
             display: 'inline-block',
             padding: '12px 30px',
             background: 'rgba(255,255,255,0.2)',
@@ -754,7 +754,7 @@ function App() {
           }}>
             Instagram
           </a>
-          <a href="https://wa.me/1XXXXXXXXXX" target="_blank" rel="noopener noreferrer" style={{
+          <a href="https://wa.me/13214323418" target="_blank" rel="noopener noreferrer" style={{
             display: 'inline-block',
             padding: '12px 30px',
             background: 'rgba(255,255,255,0.2)',
