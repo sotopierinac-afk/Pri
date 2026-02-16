@@ -341,7 +341,8 @@ function App() {
                 style={{
                   width: '100%',
                   height: '240px',
-                  objectFit: 'cover'
+                  objectFit: 'contain',
+                  backgroundColor: '#0C2D48'
                 }}
               />
               <div style={{ padding: '32px' }}>
