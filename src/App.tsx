@@ -105,7 +105,6 @@ function App() {
             playsInline
             style={{
               width: '100%',
-              maxWidth: '1000px',
               borderRadius: '16px',
               boxShadow: '0 24px 64px rgba(12, 45, 72, 0.25)'
             }}
@@ -529,7 +528,7 @@ function App() {
               transition: 'transform 0.3s ease, box-shadow 0.3s ease'
             }}>
               <img
-                src="https://images.pexels.com/photos/2803158/pexels-photo-2803158.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="https://images.pexels.com/photos/8612990/pexels-photo-8612990.jpeg?auto=compress&cs=tinysrgb&w=800"
                 alt="Mommy and Me"
                 style={{
                   width: '100%',
